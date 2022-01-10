@@ -1,7 +1,18 @@
 package cuentas;
 
+/**
+ *
+ * @author Carlos J. Cortés
+ * @version 1.0
+ * @see CCuenta
+ */
 public class Main {
 
+    /**
+     * Metodo principal donde se inicializa la aplicación
+     *
+     * @param args para iniciar la aplicacion
+     */
     public static void main(String[] args) {
         CCuenta cuenta1;
         double saldoActual;
@@ -21,8 +32,13 @@ public class Main {
         }
     }
 
+    /**
+     * metodo para realizar la operativa de la cuenta
+     *
+     * @return el saldo de la cuenta
+     */
     private static CCuenta operativa_cuenta() {
-        
+
         float cantidad;
         CCuenta cuenta1;
         double saldoActual;
